@@ -25,7 +25,7 @@ const Header = () => {
         <nav>
             <div className="relative flex items-center gap-4 justify-between mb-2">
                 <Link to="/">
-                    <img src="/public/logo.svg" alt="logo" />
+                    <img src="/src/assets/logo.svg" alt="logo" />
                 </Link>
                 <div className="font-bold text-md flex gap-3 items-center">
                     {categories?.slice(0, 5)?.map((category) => {
